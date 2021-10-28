@@ -1,0 +1,564 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 80px;
+    width: 1081px;
+    color: #fff;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    background-color: #fff;
+    display: flex;
+}
+.logo{
+    width: 53px;
+    height: 36px;
+    background-position: -462px 0;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-size: 1404px 105px;
+    background-image: url("https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png");
+}
+.logo{
+    margin-left: 2%;
+    float: left;
+    margin-top: 21px;
+}
+
+.leftelements{
+    width: 443px;
+    height: 80px;
+   
+    margin-left: 11px;}
+.navele{
+    padding: 0 17px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #282c3f;
+    border-bottom: none;
+    transition: left .2s ease-out,width .2s ease-out;
+    font-weight: 500;
+    text-transform:uppercase;
+
+}
+.input{
+    position: absolute;
+    height: 40px;
+    width: 301px;
+    margin-left: 571px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+}
+.row{
+    width: 443px;
+    height:40px;
+    margin-top: 24px;
+}
+.firsticon{
+    width: 56px;
+    height: 40px;
+    color: #696e79;
+}
+.icon{
+    position: absolute;
+    padding: 8px;
+}
+
+
+.placeholdertext{
+    background: #f5f5f6;
+    width: 95%;
+    font-size: 14px;
+    border: none;
+    outline:none
+}
+.rightele{
+    width: 194px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 363px;
+    display: flex;
+}
+.usericon{
+    background-size: 1404px 105px;
+    background-image: url("https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png");
+    width: 24px;
+    height: 24px;
+    background-position: -298px -56px;
+    margin-left: 13px;
+    position: absolute;
+    margin-top: -3px;
+    
+}
+.usericon1{
+    background-size: 1404px 105px;
+    background-image: url("https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png");
+    width: 24px;
+    height: 24px;
+    background-position: -311px -187px;  
+    margin-left: 77px;
+    position: absolute;
+    margin-top: -3px;
+    
+}
+
+.usertext{
+    color: black;
+    margin-top: 16px;
+    margin-left: 6px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.usertext1{
+    color: black;
+    margin-top: 16px;
+    margin-left: 69px;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+}
+
+.usericon2{
+    background-size: 1404px 105px;
+    background-image: url("https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png");
+    width: 24px;
+    height: 24px;
+    margin-top: -3px;
+    background-position: -338px -56px;
+    margin-left: 137px;
+    position: absolute;
+    
+}
+.usertext2{
+    color: black;
+    margin-top: 16px;
+    margin-left: 101px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.invitebox{
+    width: 1081.71px;
+    height: 54px;
+  
+    margin-top: 79px;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(
+        90deg,#f9f9ff,#dee8ff);
+
+}
+.elebox{
+    width: 482px;
+    height: 54px;
+   
+}
+.imgicon{
+    width: 54px;
+    height: 54px;
+}
+.texticon{
+    font-size: 14px;
+    color: #3e4152;
+    opacity: .9;
+    text-align: left;
+    position: absolute;
+    width: 300px;
+    margin-top: 7px;
+    margin-left: 10px;
+
+}
+.texticon1{
+    color: #ff3f6c;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 331px; 
+    padding-top: 16px;
+    padding-left: 4px;
+   
+
+}
+.shippingimg{
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    
+margin-top: 157px;
+
+}
+.shippingbox{
+    width: 1081px;
+    height: 56px;
+    
+    margin-top: 24px;
+
+}
+.poster{
+    width: 990px;
+    height: 315px;
+  
+    text-align: center;
+    margin-left: 43px;
+}
+.posterimg{
+    width: 989px;
+    height: 315px;
+}
+.slider{
+    height: 81px;
+  
+    margin-top: 20px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+ 
+
+.thumb{
+    display: none !important;
+}
+.fashionimg{
+    width: 1041px;
+    height: 162px;
+   
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 51px;
+
+}
+
+.biggestimg{
+    width: 1081px;
+    height: 84px;
+    
+    position: absolute;
+    margin-top: 227px;
+}
+.firstcardrow{
+    width: 1017px;
+    height: 247px;
+  
+    display: flex;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardimg{
+    width: 188px;
+    height: 247px;
+  
+}
+.secondcardrow{
+    width: 1017px;
+    height: 247px;
+  
+    display: flex;
+    position: absolute;
+    margin-top: 655px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardimg1{
+    width: 188px;
+    height: 224px;
+    
+}
+.thirdrow{
+    width: 1017px;
+    height: 247px;
+ 
+    display: flex;
+    position: absolute;
+    margin-top: 880px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.topimg{
+    width: 1081px;
+    height: 84px;
+
+    position: absolute;
+    margin-top: 1119px;
+}
+.fourthrow{
+    width: 1017px;
+    height: 247px;
+   
+    display: flex;
+    position: absolute;
+    margin-top: 1202px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.bestimg{
+    width: 1081px;
+    height: 84px;
+  
+    position: absolute;
+    margin-top: 1464px;
+}
+.fifthrow{
+    width: 1017px;
+    height: 316px;
+  
+    display: flex;
+    position: absolute;
+    margin-top: 1547px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.sixthrow{
+    width: 1017px;
+    height: 316px;
+    display: flex;
+    position: absolute;
+    margin-top: 1874px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.clothingimg{
+    width: 1081px;
+    height: 84px;
+    position: relative;
+    margin-top: 2193px;
+}
+.seventhrow{
+    width: 1017px;
+    height: 316px;
+    display: flex;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;  
+}
+.innerwearimg{
+    width: 1081px;
+    height: 84px;
+    position: relative;
+    margin-top: 258px;
+}
+.eighthrow{
+    width: 1017px;
+    height: 316px;
+    display: flex;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.footwearimg{
+    width: 1081px;
+    height: 84px;
+    position: relative;
+    margin-top: 0px;
+}
+.ninthrow{
+    width: 1017px;
+    height: 247px;
+    display: flex;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;  
+}
+.topstyleimg{
+    width: 1081px;
+    height: 84px;
+    position: relative;
+    margin-top: 0px;
+}
+.tenthrow {
+    width: 1017px;
+    height: 226px;
+    display: flex;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;  
+
+}
+.eleventhrow {
+    width: 1017px;
+    height: 226px;
+    display: flex;
+    position: relative;
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;  
+
+}
+.categoryimg{
+    width: 1081px;
+    height: 84px;
+    position: relative;
+    margin-top: 11px;
+}
+.twlthrow{
+    width: 1017px;
+    height: 226px;
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: space-between;  
+    margin-top: -7px;
+    margin-bottom: 18px;
+}
+.thirteenrow .fourteenrow{
+    width: 1017px;
+    height: 226px;
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 5px;
+}
+
+.fifteenrow{
+    width: 1017px;
+    height: 226px;
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    margin-top: 4px;
+}
+.sidebar{
+    width: 46px;
+    height: 288px;
+  
+    position: absolute;
+    margin-left: 1034px;
+    position: fixed;
+    margin-top: -5427px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.sidebartext{
+    writing-mode: vertical-rl;
+    transform: rotate(
+-180deg);
+    width: 36px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    display: inline-block;
+    margin-top: 77px;
+}
+.arrow{
+    border-right: 15px solid #fff;
+    width: 0;
+    height: 0;
+    margin: 24px 16px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    position: absolute;
+}
+.footercontainer{
+    width: 1080px;
+    height: 340px;
+    margin-top: 20px;
+    display: flex;
+    background: #FAFBFC;
+}
+.onlinebox {
+    width: 152px;
+    height: 211px;
+}
+.usefulbox{
+    width: 152px;
+    height: 211px;
+    margin-left:40px ;
+}
+.headings{
+font-weight: 500;
+font-size: 12px;
+margin-top: 35px;
+}
+p{
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+   
+
+}
+.expbox{
+    width: 380px;
+    height: 174px;
+
+}
+.expimg{
+    height: 42px;
+    width: 139px;
+    margin-right: 10px;
+}
+.originalbox{
+    width: 250px;
+    height: 149px;
+
+}
+.img2{
+    margin-left: 16px;
+}
+.originaltext{
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.originaltext1{
+    position: absolute;
+    margin-top: 97px;
+ 
+    margin-left: 10px;
+}
+.ok1{
+    margin-top: 102px;
+    position: absolute;
+    margin-left: -49px;
+
+}
+.ok{
+    margin-top: 35px;
+}
